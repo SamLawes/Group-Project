@@ -17,16 +17,16 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="Logo.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="Pai-Wv-MMr">
-                                <rect key="frame" x="6" y="105" width="363" height="357"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="time trial (1).jpg" translatesAutoresizingMaskIntoConstraints="NO" id="Pai-Wv-MMr">
+                                <rect key="frame" x="49" y="108" width="277" height="285"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Pai-Wv-MMr" secondAttribute="bottom" constant="262" id="PcE-FX-xea"/>
-                            <constraint firstItem="Pai-Wv-MMr" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="62" id="WZn-I6-7Aw"/>
-                            <constraint firstItem="Pai-Wv-MMr" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="164" id="Zsh-lV-9y1"/>
-                            <constraint firstItem="Pai-Wv-MMr" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="xXQ-xj-cLv"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Pai-Wv-MMr" secondAttribute="bottom" constant="205" id="8Ji-OW-B1k"/>
+                            <constraint firstItem="Pai-Wv-MMr" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="6" id="OpA-AE-m70"/>
+                            <constraint firstItem="Pai-Wv-MMr" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="YfR-76-WXn"/>
+                            <constraint firstItem="Pai-Wv-MMr" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="85" id="hGV-aS-ezS"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
@@ -37,6 +37,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="Logo.jpg" width="500" height="500"/>
+        <image name="time trial (1).jpg" width="500" height="500"/>
     </resources>
 </document>

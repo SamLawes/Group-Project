@@ -1,6 +1,6 @@
 import Foundation
 import UIKit
-import Firebase
+//import Firebase
 
 class AppManager {
     static let shared = AppManager()
