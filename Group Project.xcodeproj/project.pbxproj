@@ -13,6 +13,8 @@
 		55E6A7A721A6CE6E0093CED5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55E6A7A521A6CE6E0093CED5 /* Main.storyboard */; };
 		55E6A7A921A6CE6F0093CED5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55E6A7A821A6CE6F0093CED5 /* Assets.xcassets */; };
 		55E6A7AC21A6CE6F0093CED5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55E6A7AA21A6CE6F0093CED5 /* LaunchScreen.storyboard */; };
+		F005DCAC21B17ED700888068 /* Loginviewcontroller.swift in Sources */ = {isa = PBXBuildFile; fileRef = F005DCAB21B17ED700888068 /* Loginviewcontroller.swift */; };
+		F005DCAE21B1803B00888068 /* AppManagerContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F005DCAD21B1803B00888068 /* AppManagerContainer.swift */; };
 		F53125EA21B0128000F19527 /* time trial (1).jpg in Resources */ = {isa = PBXBuildFile; fileRef = F53125E921B0128000F19527 /* time trial (1).jpg */; };
 		FA5907C821A8487C004BFCF9 /* AppManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5907C721A8487C004BFCF9 /* AppManager.swift */; };
 /* End PBXBuildFile section */
@@ -26,6 +28,8 @@
 		55E6A7A821A6CE6F0093CED5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		55E6A7AB21A6CE6F0093CED5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		55E6A7AD21A6CE6F0093CED5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F005DCAB21B17ED700888068 /* Loginviewcontroller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Loginviewcontroller.swift; sourceTree = "<group>"; };
+		F005DCAD21B1803B00888068 /* AppManagerContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppManagerContainer.swift; sourceTree = "<group>"; };
 		F53125E921B0128000F19527 /* time trial (1).jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "time trial (1).jpg"; sourceTree = "<group>"; };
 		FA5907C721A8487C004BFCF9 /* AppManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -62,6 +66,8 @@
 			children = (
 				55E6A7A121A6CE6E0093CED5 /* AppDelegate.swift */,
 				FA5907C721A8487C004BFCF9 /* AppManager.swift */,
+				F005DCAD21B1803B00888068 /* AppManagerContainer.swift */,
+				F005DCAB21B17ED700888068 /* Loginviewcontroller.swift */,
 				55E6A7A321A6CE6E0093CED5 /* ViewController.swift */,
 				42B1D1CF21B015EB009ED4C6 /* Marker.swift */,
 				55E6A7A521A6CE6E0093CED5 /* Main.storyboard */,
@@ -146,9 +152,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				FA5907C821A8487C004BFCF9 /* AppManager.swift in Sources */,
+				F005DCAC21B17ED700888068 /* Loginviewcontroller.swift in Sources */,
 				42B1D1D021B015EB009ED4C6 /* Marker.swift in Sources */,
 				55E6A7A421A6CE6E0093CED5 /* ViewController.swift in Sources */,
 				55E6A7A221A6CE6E0093CED5 /* AppDelegate.swift in Sources */,
+				F005DCAE21B1803B00888068 /* AppManagerContainer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
