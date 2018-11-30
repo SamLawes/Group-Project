@@ -5,11 +5,10 @@ import UIKit
 
 class AppManager {
     
-    
     static let shared = AppManager()
     
     let storyboard = UIStoryboard(name: "Main", bundle: nil)
-    var appContainer = AppManagerContainer
+    var appContainer: AppManagerContainer
     
     private init()  {  }
     
@@ -29,7 +28,6 @@ class AppManager {
     
     func logout() {
         try! Auth.auth().signOut()
-        
         appContainer.presentedViewContoller?.dismiss(animated: true, completion: nil)
     }
     
