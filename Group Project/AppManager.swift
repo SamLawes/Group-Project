@@ -1,6 +1,6 @@
 import Foundation
 import UIKit
-//import Firebase
+import Firebase
 
 
 class AppManager {
@@ -8,7 +8,7 @@ class AppManager {
     static let shared = AppManager()
     
     let storyboard = UIStoryboard(name: "Main", bundle: nil)
-    var appContainer: AppManagerContainer
+    var appContainer: AppManagerContainer!
     
     private init()  {  }
     
@@ -17,9 +17,9 @@ class AppManager {
         var viewController: UIViewController
         
         if Auth.auth().currentUser == nil {
-            viewController = storyboard.instantiateInitialViewController(withIdentifier: "LoginViewController")
+            viewController = storyboard.instantiateViewController(withIdentifier: "LoginViewController")
         } else {
-            viewController = storyboard.instantiateInitialViewController(withIdentifier: "MainViewController")
+            viewController = storyboard.instantiateViewController(withIdentifier: "MainViewController")
         }
         
         appContainer.present(viewController, animated: true, completion: nil)
@@ -28,7 +28,7 @@ class AppManager {
     
     func logout() {
         try! Auth.auth().signOut()
-        appContainer.presentedViewContoller?.dismiss(animated: true, completion: nil)
+        appContainer.presentedViewController?.dismiss(animated: true, completion: nil)
     }
     
     
