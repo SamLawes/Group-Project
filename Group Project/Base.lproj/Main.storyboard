@@ -32,17 +32,23 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textField opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="test@test.com" borderStyle="roundedRect" placeholder="Username" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="SEJ-bF-ed6">
-                                <rect key="frame" x="139" y="159" width="97" height="30"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="30" id="MvQ-zd-0hW"/>
-                                </constraints>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="test@test.com" borderStyle="roundedRect" placeholder="Username" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="SEJ-bF-ed6">
+                                <rect key="frame" x="139" y="198" width="97" height="30"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1Ot-LP-jdu">
-                                <rect key="frame" x="141" y="305" width="93" height="49"/>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="password" borderStyle="roundedRect" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="oss-lo-tSC">
+                                <rect key="frame" x="139" y="246" width="95" height="30"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1Ot-LP-jdu">
+                                <rect key="frame" x="141" y="411" width="93" height="49"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="49" id="3tK-nE-pbH"/>
+                                </constraints>
                                 <state key="normal" title="Login">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
@@ -51,28 +57,18 @@
                                     <segue destination="LHn-Lz-XiV" kind="show" id="0Le-EC-CsE"/>
                                 </connections>
                             </button>
-                            <textField opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="password" borderStyle="roundedRect" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="oss-lo-tSC">
-                                <rect key="frame" x="139" y="207" width="97" height="30"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="30" id="18V-DQ-zxG"/>
-                                </constraints>
-                                <nil key="textColor"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
                         </subviews>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="1Ot-LP-jdu" firstAttribute="top" secondItem="oss-lo-tSC" secondAttribute="bottom" constant="39" id="LMC-k3-goG"/>
-                            <constraint firstItem="1Ot-LP-jdu" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="143" id="Q59-MM-CyO"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="1Ot-LP-jdu" secondAttribute="bottom" constant="331" id="QZD-et-n2x"/>
-                            <constraint firstItem="SEJ-bF-ed6" firstAttribute="leading" secondItem="oss-lo-tSC" secondAttribute="leading" id="TNZ-7y-Ex3"/>
-                            <constraint firstItem="SEJ-bF-ed6" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="139" id="asu-z3-bbl"/>
-                            <constraint firstItem="oss-lo-tSC" firstAttribute="top" secondItem="SEJ-bF-ed6" secondAttribute="bottom" constant="19" id="dWV-td-SAa"/>
-                            <constraint firstItem="SEJ-bF-ed6" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="glB-Zt-tdw"/>
-                            <constraint firstItem="SEJ-bF-ed6" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="109" id="lmA-Tp-OG7"/>
-                            <constraint firstItem="SEJ-bF-ed6" firstAttribute="trailing" secondItem="oss-lo-tSC" secondAttribute="trailing" id="vpk-TA-e2c"/>
-                            <constraint firstItem="oss-lo-tSC" firstAttribute="trailing" secondItem="1Ot-LP-jdu" secondAttribute="trailing" id="y0w-Yt-S27"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="1Ot-LP-jdu" secondAttribute="bottom" constant="207" id="6zO-rY-ZIY"/>
+                            <constraint firstItem="oss-lo-tSC" firstAttribute="trailing" secondItem="1Ot-LP-jdu" secondAttribute="trailing" id="MBD-A7-qWw"/>
+                            <constraint firstItem="SEJ-bF-ed6" firstAttribute="centerX" secondItem="1Ot-LP-jdu" secondAttribute="centerX" id="P72-gr-MyS"/>
+                            <constraint firstItem="SEJ-bF-ed6" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="139" id="Pd1-oS-syP"/>
+                            <constraint firstItem="oss-lo-tSC" firstAttribute="top" secondItem="SEJ-bF-ed6" secondAttribute="bottom" constant="18" id="Q28-3I-dOc"/>
+                            <constraint firstItem="SEJ-bF-ed6" firstAttribute="leading" secondItem="oss-lo-tSC" secondAttribute="leading" id="llG-zZ-oMW"/>
+                            <constraint firstItem="1Ot-LP-jdu" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="141" id="mRF-uT-giv"/>
+                            <constraint firstItem="SEJ-bF-ed6" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="178" id="nm1-Yn-jsX"/>
+                            <constraint firstItem="SEJ-bF-ed6" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="o2v-8T-jmf"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
@@ -108,13 +104,23 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="kPT-2j-LOf">
-                                <rect key="frame" x="67" y="126" width="240" height="368"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="kPT-2j-LOf">
+                                <rect key="frame" x="34" y="60" width="306" height="546"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="separatorColor" cocoaTouchSystemColor="tableCellGroupedBackgroundColor"/>
+                                <color key="sectionIndexColor" red="0.28360939889999998" green="0.51083552139999999" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="sectionIndexBackgroundColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
+                                <color key="sectionIndexTrackingBackgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </tableView>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="kPT-2j-LOf" firstAttribute="bottom" secondItem="RLT-O5-fX0" secondAttribute="bottom" id="3kp-Jp-Xa3"/>
+                            <constraint firstItem="kPT-2j-LOf" firstAttribute="leading" secondItem="pyt-77-fGF" secondAttribute="leading" id="TXg-Yq-sAF"/>
+                            <constraint firstItem="kPT-2j-LOf" firstAttribute="top" secondItem="pyt-77-fGF" secondAttribute="top" id="k7l-SE-J9a"/>
+                            <constraint firstAttribute="trailing" secondItem="kPT-2j-LOf" secondAttribute="trailing" id="wV5-TD-hPk"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="RLT-O5-fX0"/>
                     </view>
                 </viewController>
