@@ -32,23 +32,26 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Username" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="SEJ-bF-ed6">
-                                <rect key="frame" x="101" y="145" width="97" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Username" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="SEJ-bF-ed6">
+                                <rect key="frame" x="139" y="129" width="97" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="MvQ-zd-0hW"/>
+                                </constraints>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="oss-lo-tSC">
-                                <rect key="frame" x="101" y="194" width="97" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="oss-lo-tSC">
+                                <rect key="frame" x="139" y="178" width="97" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="18V-DQ-zxG"/>
+                                </constraints>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1Ot-LP-jdu">
-                                <rect key="frame" x="105" y="263" width="93" height="89"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1Ot-LP-jdu">
+                                <rect key="frame" x="143" y="247" width="93" height="89"/>
                                 <state key="normal" title="Login"/>
                                 <connections>
                                     <action selector="login:" destination="BYZ-38-t0r" eventType="touchUpInside" id="XjL-P6-h5j"/>
@@ -56,6 +59,18 @@
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="1Ot-LP-jdu" firstAttribute="top" secondItem="oss-lo-tSC" secondAttribute="bottom" constant="39" id="LMC-k3-goG"/>
+                            <constraint firstItem="1Ot-LP-jdu" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="143" id="Q59-MM-CyO"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="1Ot-LP-jdu" secondAttribute="bottom" constant="331" id="QZD-et-n2x"/>
+                            <constraint firstItem="SEJ-bF-ed6" firstAttribute="leading" secondItem="oss-lo-tSC" secondAttribute="leading" id="TNZ-7y-Ex3"/>
+                            <constraint firstItem="SEJ-bF-ed6" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="139" id="asu-z3-bbl"/>
+                            <constraint firstItem="oss-lo-tSC" firstAttribute="top" secondItem="SEJ-bF-ed6" secondAttribute="bottom" constant="19" id="dWV-td-SAa"/>
+                            <constraint firstItem="SEJ-bF-ed6" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="glB-Zt-tdw"/>
+                            <constraint firstItem="SEJ-bF-ed6" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="109" id="lmA-Tp-OG7"/>
+                            <constraint firstItem="SEJ-bF-ed6" firstAttribute="trailing" secondItem="oss-lo-tSC" secondAttribute="trailing" id="vpk-TA-e2c"/>
+                            <constraint firstItem="oss-lo-tSC" firstAttribute="trailing" secondItem="1Ot-LP-jdu" secondAttribute="trailing" id="y0w-Yt-S27"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
