@@ -20,6 +20,7 @@
 		F53125EA21B0128000F19527 /* time trial (1).jpg in Resources */ = {isa = PBXBuildFile; fileRef = F53125E921B0128000F19527 /* time trial (1).jpg */; };
 		FA509E4F21B9548A00F3C16D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FA509E4E21B9548A00F3C16D /* GoogleService-Info.plist */; };
 		FA5907C821A8487C004BFCF9 /* AppManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5907C721A8487C004BFCF9 /* AppManager.swift */; };
+		FAFD32EC21BAB86300351C13 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFD32EB21BAB86300351C13 /* MenuViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +41,7 @@
 		F53125E921B0128000F19527 /* time trial (1).jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "time trial (1).jpg"; sourceTree = "<group>"; };
 		FA509E4E21B9548A00F3C16D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		FA5907C721A8487C004BFCF9 /* AppManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppManager.swift; sourceTree = "<group>"; };
+		FAFD32EB21BAB86300351C13 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 				55E6A7A321A6CE6E0093CED5 /* ViewController.swift */,
 				42B1D1CF21B015EB009ED4C6 /* Marker.swift */,
 				55E6A7A521A6CE6E0093CED5 /* Main.storyboard */,
+				FAFD32EB21BAB86300351C13 /* MenuViewController.swift */,
 				F005DCAF21B190EB00888068 /* MainViewController.swift */,
 				55E6A7A821A6CE6F0093CED5 /* Assets.xcassets */,
 				F53125E921B0128000F19527 /* time trial (1).jpg */,
@@ -238,6 +241,7 @@
 				55E6A7A421A6CE6E0093CED5 /* ViewController.swift in Sources */,
 				55E6A7A221A6CE6E0093CED5 /* AppDelegate.swift in Sources */,
 				F005DCAE21B1803B00888068 /* AppManagerContainer.swift in Sources */,
+				FAFD32EC21BAB86300351C13 /* MenuViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
