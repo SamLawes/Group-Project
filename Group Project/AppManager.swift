@@ -19,7 +19,7 @@ class AppManager {
         if Auth.auth().currentUser == nil {
             viewController = storyboard.instantiateViewController(withIdentifier: "LoginViewController")
         } else {
-            viewController = storyboard.instantiateViewController(withIdentifier: "MainViewController")
+            viewController = storyboard.instantiateViewController(withIdentifier: "MenuViewController")
         }
         
         appContainer.present(viewController, animated: true, completion: nil)
