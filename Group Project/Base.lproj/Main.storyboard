@@ -93,9 +93,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="kPT-2j-LOf">
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="kPT-2j-LOf">
                                 <rect key="frame" x="0.0" y="293" width="375" height="374"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <color key="tintColor" red="0.88717753499999996" green="0.88717753499999996" blue="0.88717753499999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <prototypes>
@@ -106,12 +105,17 @@
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="95.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="xGO-lK-CPi">
+                                                <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="xGO-lK-CPi">
                                                     <rect key="frame" x="15" y="11" width="345" height="74"/>
-                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </view>
                                             </subviews>
+                                            <constraints>
+                                                <constraint firstItem="xGO-lK-CPi" firstAttribute="leading" secondItem="l3o-71-h53" secondAttribute="leadingMargin" constant="-1" id="J3c-XX-abn"/>
+                                                <constraint firstItem="xGO-lK-CPi" firstAttribute="centerX" secondItem="l3o-71-h53" secondAttribute="centerX" id="L2P-Ym-QGN"/>
+                                                <constraint firstItem="xGO-lK-CPi" firstAttribute="bottom" secondItem="l3o-71-h53" secondAttribute="bottomMargin" id="q1I-YC-1wz"/>
+                                                <constraint firstItem="xGO-lK-CPi" firstAttribute="centerY" secondItem="l3o-71-h53" secondAttribute="centerY" id="xaC-K4-rYn"/>
+                                            </constraints>
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                 </prototypes>
@@ -122,10 +126,22 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jtc-wc-JD4">
+                                <rect key="frame" x="200" y="120" width="46" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <segue destination="Kwo-mM-hzF" kind="show" id="xzo-qS-qg9"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
+                            <constraint firstItem="kPT-2j-LOf" firstAttribute="centerX" secondItem="K83-6e-zYw" secondAttribute="centerX" id="7ya-DE-6Mz"/>
+                            <constraint firstItem="kPT-2j-LOf" firstAttribute="top" secondItem="K83-6e-zYw" secondAttribute="bottom" constant="8" symbolic="YES" id="S7d-VT-AzE"/>
                             <constraint firstItem="K83-6e-zYw" firstAttribute="centerX" secondItem="pyt-77-fGF" secondAttribute="centerX" id="Tas-6c-I86"/>
+                            <constraint firstItem="kPT-2j-LOf" firstAttribute="bottom" secondItem="RLT-O5-fX0" secondAttribute="bottom" id="nFi-23-Qa7"/>
+                            <constraint firstItem="kPT-2j-LOf" firstAttribute="leading" secondItem="pyt-77-fGF" secondAttribute="leading" id="uhD-tg-QVL"/>
                             <constraint firstItem="K83-6e-zYw" firstAttribute="top" secondItem="RLT-O5-fX0" secondAttribute="top" constant="206" id="wBy-AP-blU"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="RLT-O5-fX0"/>
