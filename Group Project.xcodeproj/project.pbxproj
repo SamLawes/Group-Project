@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4266E6C921C28EF000747E1C /* Marker (Working and if needed).swift in Sources */ = {isa = PBXBuildFile; fileRef = 4266E6C821C28EF000747E1C /* Marker (Working and if needed).swift */; };
 		42B1D1D021B015EB009ED4C6 /* Marker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42B1D1CF21B015EB009ED4C6 /* Marker.swift */; };
 		55E6A7A221A6CE6E0093CED5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55E6A7A121A6CE6E0093CED5 /* AppDelegate.swift */; };
 		55E6A7A421A6CE6E0093CED5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55E6A7A321A6CE6E0093CED5 /* ViewController.swift */; };
@@ -25,6 +26,7 @@
 /* Begin PBXFileReference section */
 		0D79856C9B83E276CDC9C48A /* libPods-Group Project.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Group Project.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		42067603BD831B2C67B455AC /* Pods-Group Project.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Group Project.release.xcconfig"; path = "Pods/Target Support Files/Pods-Group Project/Pods-Group Project.release.xcconfig"; sourceTree = "<group>"; };
+		4266E6C821C28EF000747E1C /* Marker (Working and if needed).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Marker (Working and if needed).swift"; sourceTree = "<group>"; };
 		42B1D1CF21B015EB009ED4C6 /* Marker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Marker.swift; sourceTree = "<group>"; };
 		55E6A79E21A6CE6E0093CED5 /* Group Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Group Project.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		55E6A7A121A6CE6E0093CED5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -105,6 +107,7 @@
 				55E6A7AA21A6CE6F0093CED5 /* LaunchScreen.storyboard */,
 				FA509E4E21B9548A00F3C16D /* GoogleService-Info.plist */,
 				55E6A7AD21A6CE6F0093CED5 /* Info.plist */,
+				4266E6C821C28EF000747E1C /* Marker (Working and if needed).swift */,
 			);
 			path = "Group Project";
 			sourceTree = "<group>";
@@ -233,6 +236,7 @@
 			files = (
 				FA5907C821A8487C004BFCF9 /* AppManager.swift in Sources */,
 				F005DCAC21B17ED700888068 /* Loginviewcontroller.swift in Sources */,
+				4266E6C921C28EF000747E1C /* Marker (Working and if needed).swift in Sources */,
 				42B1D1D021B015EB009ED4C6 /* Marker.swift in Sources */,
 				55E6A7A421A6CE6E0093CED5 /* ViewController.swift in Sources */,
 				55E6A7A221A6CE6E0093CED5 /* AppDelegate.swift in Sources */,

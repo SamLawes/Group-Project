@@ -8,9 +8,10 @@ class ViewController: UIViewController {
     @IBOutlet weak var mapView: MKMapView!
     var motionMagnager = CMMotionManager()
     
+  
     override func viewDidLoad() {
         super.viewDidLoad()
-        let location = CLLocationCoordinate2D(latitude: 50.716714, longitude: -1.875833)
+      
     }
 
     override func viewDidAppear(_ animated: Bool){
