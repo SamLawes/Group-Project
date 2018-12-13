@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="EY4-Dd-4lT">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Kwo-mM-hzF">
     <device id="retina6_5" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -157,7 +157,7 @@
         <!--Title-->
         <scene sceneID="llN-ao-bjG">
             <objects>
-                <viewController id="Kwo-mM-hzF" sceneMemberID="viewController">
+                <viewController id="Kwo-mM-hzF" customClass="MapViewController" customModule="Group_Project" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="VWt-wo-TNH">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -175,10 +175,13 @@
                         <viewLayoutGuide key="safeArea" id="6FO-3l-PIB"/>
                     </view>
                     <navigationItem key="navigationItem" title="Title" id="aP5-Uz-lfN"/>
+                    <connections>
+                        <outlet property="mapView" destination="epa-zB-8se" id="8iz-gR-XXf"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="drC-EH-a7P" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1513.0434782608697" y="131.91964285714286"/>
+            <point key="canvasLocation" x="2091" y="132"/>
         </scene>
     </scenes>
 </document>
