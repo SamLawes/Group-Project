@@ -16,7 +16,6 @@
 		A5214E5DD06457A1F4669645 /* libPods-Group Project.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D79856C9B83E276CDC9C48A /* libPods-Group Project.a */; };
 		F005DCAC21B17ED700888068 /* Loginviewcontroller.swift in Sources */ = {isa = PBXBuildFile; fileRef = F005DCAB21B17ED700888068 /* Loginviewcontroller.swift */; };
 		F005DCAE21B1803B00888068 /* AppManagerContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F005DCAD21B1803B00888068 /* AppManagerContainer.swift */; };
-		F525631D21C27DDD00123E33 /* Run Keeper.swift in Sources */ = {isa = PBXBuildFile; fileRef = F525631C21C27DDD00123E33 /* Run Keeper.swift */; };
 		F53125EA21B0128000F19527 /* time trial (1).jpg in Resources */ = {isa = PBXBuildFile; fileRef = F53125E921B0128000F19527 /* time trial (1).jpg */; };
 		FA509E4F21B9548A00F3C16D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FA509E4E21B9548A00F3C16D /* GoogleService-Info.plist */; };
 		FA5907C821A8487C004BFCF9 /* AppManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5907C721A8487C004BFCF9 /* AppManager.swift */; };
@@ -37,7 +36,6 @@
 		743E980AC62B0A8BD9A82A3D /* Pods-Group Project.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Group Project.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Group Project/Pods-Group Project.debug.xcconfig"; sourceTree = "<group>"; };
 		F005DCAB21B17ED700888068 /* Loginviewcontroller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Loginviewcontroller.swift; sourceTree = "<group>"; };
 		F005DCAD21B1803B00888068 /* AppManagerContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppManagerContainer.swift; sourceTree = "<group>"; };
-		F525631C21C27DDD00123E33 /* Run Keeper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Run Keeper.swift"; path = "../../Run Keeper test/Run Keeper.swift"; sourceTree = "<group>"; };
 		F525631E21C28D5800123E33 /* Location.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = Location.gpx; sourceTree = "<group>"; };
 		F53125E921B0128000F19527 /* time trial (1).jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "time trial (1).jpg"; sourceTree = "<group>"; };
 		FA509E4E21B9548A00F3C16D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
@@ -103,7 +101,6 @@
 				F525631E21C28D5800123E33 /* Location.gpx */,
 				42B1D1CF21B015EB009ED4C6 /* Marker.swift */,
 				55E6A7A521A6CE6E0093CED5 /* Main.storyboard */,
-				F525631C21C27DDD00123E33 /* Run Keeper.swift */,
 				FAFD32EB21BAB86300351C13 /* MenuViewController.swift */,
 				55E6A7A821A6CE6F0093CED5 /* Assets.xcassets */,
 				F53125E921B0128000F19527 /* time trial (1).jpg */,
@@ -240,7 +237,6 @@
 				F005DCAC21B17ED700888068 /* Loginviewcontroller.swift in Sources */,
 				42B1D1D021B015EB009ED4C6 /* Marker.swift in Sources */,
 				55E6A7A421A6CE6E0093CED5 /* MapViewController.swift in Sources */,
-				F525631D21C27DDD00123E33 /* Run Keeper.swift in Sources */,
 				55E6A7A221A6CE6E0093CED5 /* AppDelegate.swift in Sources */,
 				F005DCAE21B1803B00888068 /* AppManagerContainer.swift in Sources */,
 				FAFD32EC21BAB86300351C13 /* MenuViewController.swift in Sources */,
