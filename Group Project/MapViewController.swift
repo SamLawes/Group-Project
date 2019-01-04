@@ -41,8 +41,12 @@ class MapViewController: UIViewController {
     
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
         ref = Firestore.firestore().collection("runs").document()
-        ref?.setData(["user": "fsugdhdgfidauygdshi"])
-        
+        ref?.setData(["user": "SamLawes"])
+
+    }
+    
+    override func touchesEnded(_ touches: Set<UITouch>, with event: UIEvent?) {
+        // cancel upload to firebase
     }
     
 
