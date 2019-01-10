@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		42447B7121E7742E004755EA /* Run.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42447B7021E7742E004755EA /* Run.swift */; };
 		42B1D1D021B015EB009ED4C6 /* Marker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42B1D1CF21B015EB009ED4C6 /* Marker.swift */; };
 		55E6A7A221A6CE6E0093CED5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55E6A7A121A6CE6E0093CED5 /* AppDelegate.swift */; };
 		55E6A7A421A6CE6E0093CED5 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55E6A7A321A6CE6E0093CED5 /* MapViewController.swift */; };
@@ -25,6 +26,7 @@
 /* Begin PBXFileReference section */
 		0D79856C9B83E276CDC9C48A /* libPods-Group Project.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Group Project.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		42067603BD831B2C67B455AC /* Pods-Group Project.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Group Project.release.xcconfig"; path = "Pods/Target Support Files/Pods-Group Project/Pods-Group Project.release.xcconfig"; sourceTree = "<group>"; };
+		42447B7021E7742E004755EA /* Run.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Run.swift; sourceTree = "<group>"; };
 		42B1D1CF21B015EB009ED4C6 /* Marker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Marker.swift; sourceTree = "<group>"; };
 		55E6A79E21A6CE6E0093CED5 /* Group Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Group Project.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		55E6A7A121A6CE6E0093CED5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -100,6 +102,7 @@
 				55E6A7A321A6CE6E0093CED5 /* MapViewController.swift */,
 				F525631E21C28D5800123E33 /* Location.gpx */,
 				42B1D1CF21B015EB009ED4C6 /* Marker.swift */,
+				42447B7021E7742E004755EA /* Run.swift */,
 				55E6A7A521A6CE6E0093CED5 /* Main.storyboard */,
 				FAFD32EB21BAB86300351C13 /* MenuViewController.swift */,
 				55E6A7A821A6CE6F0093CED5 /* Assets.xcassets */,
@@ -234,6 +237,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FA5907C821A8487C004BFCF9 /* AppManager.swift in Sources */,
+				42447B7121E7742E004755EA /* Run.swift in Sources */,
 				F005DCAC21B17ED700888068 /* Loginviewcontroller.swift in Sources */,
 				42B1D1D021B015EB009ED4C6 /* Marker.swift in Sources */,
 				55E6A7A421A6CE6E0093CED5 /* MapViewController.swift in Sources */,
