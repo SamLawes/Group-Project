@@ -197,7 +197,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="VeP-z3-Oid"/>
                     <connections>
-                        <outlet property="MenuTable" destination="kPT-2j-LOf" id="ozV-Vr-Iew"/>
+                        <outlet property="tableView" destination="kPT-2j-LOf" id="yHg-NG-9dL"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="nGP-zK-iVE" userLabel="First Responder" sceneMemberID="firstResponder"/>
