@@ -24,51 +24,6 @@
             </objects>
             <point key="canvasLocation" x="-742" y="132"/>
         </scene>
-        <!--Root View Controller-->
-        <scene sceneID="mIa-xA-Qob">
-            <objects>
-                <tableViewController id="itY-eC-1pK" sceneMemberID="viewController">
-                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="bAt-ew-TdE">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="c7i-bn-mIu">
-                                <rect key="frame" x="0.0" y="28" width="414" height="44"/>
-                                <autoresizingMask key="autoresizingMask"/>
-                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="c7i-bn-mIu" id="WWC-AH-Tio">
-                                    <rect key="frame" x="0.0" y="0.0" width="414" height="43.666666666666664"/>
-                                    <autoresizingMask key="autoresizingMask"/>
-                                </tableViewCellContentView>
-                            </tableViewCell>
-                        </prototypes>
-                        <connections>
-                            <outlet property="dataSource" destination="itY-eC-1pK" id="Vov-YF-BSb"/>
-                            <outlet property="delegate" destination="itY-eC-1pK" id="aqB-cQ-Ctd"/>
-                        </connections>
-                    </tableView>
-                    <navigationItem key="navigationItem" title="Root View Controller" id="lIs-e5-nxk"/>
-                </tableViewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="9Gg-CH-MbL" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="771" y="-593"/>
-        </scene>
-        <!--Navigation Controller-->
-        <scene sceneID="E4K-3U-zNO">
-            <objects>
-                <navigationController id="0po-2q-ubf" sceneMemberID="viewController">
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="D8g-j8-BvF">
-                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                    </navigationBar>
-                    <connections>
-                        <segue destination="itY-eC-1pK" kind="relationship" relationship="rootViewController" id="6Hp-zG-5TM"/>
-                    </connections>
-                </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="xaY-wf-PTf" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-93" y="-593"/>
-        </scene>
         <!--Login View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
@@ -204,7 +159,7 @@
             </objects>
             <point key="canvasLocation" x="2163.768115942029" y="135.9375"/>
         </scene>
-        <!--Title-->
+        <!--Map View Controller-->
         <scene sceneID="llN-ao-bjG">
             <objects>
                 <viewController id="Kwo-mM-hzF" customClass="MapViewController" customModule="Group_Project" customModuleProvider="target" sceneMemberID="viewController">
@@ -224,7 +179,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="6FO-3l-PIB"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Title" id="aP5-Uz-lfN"/>
+                    <navigationItem key="navigationItem" id="aP5-Uz-lfN"/>
                     <connections>
                         <outlet property="mapView" destination="epa-zB-8se" id="8iz-gR-XXf"/>
                     </connections>
